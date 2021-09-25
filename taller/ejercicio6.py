@@ -14,7 +14,7 @@ def desviacionEstadar(Numeros:list)->float:
     for numero in Numeros:
         sumatoria+=((numero-x)**2)
     
-    resultadoDE=(sumatoria/(cantidadNumeros))**(1/2)    
+    resultadoDE=(sumatoria/(cantidadNumeros-1))**(1/2)    
     return(resultadoDE)    
     
 
